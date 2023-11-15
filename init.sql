@@ -1,4 +1,3 @@
-
 CREATE TABLE IF NOT EXISTS inspirational_quotes (
     id SERIAL PRIMARY KEY,
     quote VARCHAR(255),
