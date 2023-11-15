@@ -1,7 +1,3 @@
-DROP TABLE inspirational_quotes;
-DROP TABLE music;
-DROP TABLE quote_music;
-
 CREATE TABLE IF NOT EXISTS inspirational_quotes (
     id SERIAL PRIMARY KEY,
     quote VARCHAR(255),
